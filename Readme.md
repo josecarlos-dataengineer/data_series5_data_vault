@@ -12,7 +12,7 @@ bronze  | aplicar tipagem de dados      | parquet
 silver  | aplicar modelagem Data Vault  | Delta Table
 
 ### Requisitos:
-Microsoft SQL Server 2019 
+Microsoft SQL Server 2019 <br>
 Python 3.9
 
 ### Status: Em desenvolvimento
