@@ -1,0 +1,12 @@
+gerador_de_dados/.env
+gerador_de_dados/data_generator_pack/__pycache__
+gerador_de_dados/data_series_5_venv
+etl/1_landing
+etl/2_bronze
+etl/3_silver
+etl/4_gold
+etl/data_auxiliars/__pycache__
+etl/functions_packages/__pycache__
+etl/rust
+data_series_5_venv
+etl/delta_patterns

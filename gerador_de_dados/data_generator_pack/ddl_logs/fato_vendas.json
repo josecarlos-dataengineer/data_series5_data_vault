@@ -1,0 +1,7 @@
+{
+    "data_criacao": "2024-08-29 00:07:46.221933",
+    "tipo": "create",
+    "nome": "fato_vendas",
+    "query": "if not exists (select * from sysobjects where name='fato_vendas' and xtype='U') CREATE TABLE  fato_vendas (table_id VARCHAR(200),chave VARCHAR(200),id_produto VARCHAR(200),id_cliente VARCHAR(200),id_vendedor VARCHAR(200),quantidade VARCHAR(200),creation_date VARCHAR(200),lucro VARCHAR(200),comissao VARCHAR(200),)",
+    "drop": "DROP TABLE fato_vendas"
+}

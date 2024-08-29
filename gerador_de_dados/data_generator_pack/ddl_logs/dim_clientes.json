@@ -1,0 +1,7 @@
+{
+    "data_criacao": "2024-08-29 00:07:44.164975",
+    "tipo": "create",
+    "nome": "dim_clientes",
+    "query": "if not exists (select * from sysobjects where name='dim_clientes' and xtype='U') CREATE TABLE  dim_clientes (chave VARCHAR(200),nome VARCHAR(200),idade VARCHAR(200),genero VARCHAR(200),table_id VARCHAR(200),uf VARCHAR(200),cidade VARCHAR(200),creation_date VARCHAR(200),)",
+    "drop": "DROP TABLE dim_clientes"
+}
